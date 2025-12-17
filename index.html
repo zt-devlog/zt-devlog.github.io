@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zoe Thompson — Portfolio</title>
+  <meta name="description" content="Zoe Thompson — UI/UX, web, and digital art portfolio." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="wrap header">
+    <div>
+      <h1>Zoe Thompson</h1>
+      <p class="subtitle">UI/UX • Web • Digital Art • Design Editing</p>
+      <div class="buttons">
+        <a class="btn" href="https://github.com/zt-devlog" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn secondary" href="#projects">Projects</a>
+        <a class="btn secondary" href="#art">Artwork</a>
+        <a class="btn secondary" href="#ux">UI/UX</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="about">
+      <h2>About</h2>
+      <p>
+        I’m a Digital Technology & Culture student building interactive web experiences and UI/UX work,
+        alongside digital art and visual storytelling. This site is a living portfolio—more incoming.
+      </p>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+      <p class="muted">Quick links (update these to match your pinned repos):</p>
+      <div class="grid">
+        <a class="tile" href="https://github.com/zt-devlog?tab=repositories" target="_blank" rel="noreferrer">
+          <h3>Featured Projects</h3>
+          <p>View pinned repos + full repo list on GitHub.</p>
+        </a>
+
+        <a class="tile" href="REPLACE_WITH_PROJECT_1" target="_blank" rel="noreferrer">
+          <h3>Project 1</h3>
+          <p>One-line description of what it is.</p>
+        </a>
+
+        <a class="tile" href="REPLACE_WITH_PROJECT_2" target="_blank" rel="noreferrer">
+          <h3>Project 2</h3>
+          <p>One-line description of what it is.</p>
+        </a>
+
+        <a class="tile" href="REPLACE_WITH_PROJECT_3" target="_blank" rel="noreferrer">
+          <h3>Project 3</h3>
+          <p>One-line description of what it is.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="card" id="ux">
+      <h2>UI/UX</h2>
+      <p class="muted">Case studies / prototypes:</p>
+      <ul>
+        <li><a href="REPLACE_WITH_CASE_STUDY_LINK" target="_blank" rel="noreferrer">Case Study: (title)</a> — goal, role, tools</li>
+        <li><a href="REPLACE_WITH_FIGMA_LINK" target="_blank" rel="noreferrer">Figma Prototype</a> — short description</li>
+      </ul>
+      <p class="muted">Add screenshots later in <code>/assets/ux/</code> and link them here.</p>
+    </section>
+
+    <section class="card" id="art">
+      <h2>Artwork</h2>
+      <p class="muted">Drop images into <code>/assets/art/</code> and add them below.</p>
+      <div class="gallery">
+        <!-- Example: replace with your real files -->
+        <figure>
+          <img src="assets/art/example-1.jpg" alt="Artwork example 1" />
+          <figcaption>Title / medium / year</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/art/example-2.jpg" alt="Artwork example 2" />
+          <figcaption>Title / medium / year</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card" id="editing">
+      <h2>Design Editor Work</h2>
+      <p class="muted">Highlights (swap in your real details):</p>
+      <ul>
+        <li>Edited and prepared visual/layout content for publication.</li>
+        <li>Coordinated revisions with contributors and maintained consistent style.</li>
+        <li>Tools: Adobe / Figma / Google Workspace (customize this list).</li>
+      </ul>
+      <p class="muted">
+        Optional: link samples (PDFs/images) in <code>/assets/editorial/</code>.
+      </p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a><br/>
+        GitHub: <a href="https://github.com/zt-devlog" target="_blank" rel="noreferrer">zt-devlog</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p class="muted">© <span id="year"></span> Zoe Thompson</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
